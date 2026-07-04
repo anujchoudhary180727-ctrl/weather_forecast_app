@@ -1,0 +1,26 @@
+/* Root-level CSS variables for easy theme adjustments */
+:root {
+  --weather-primary: #0d6efd;
+  --weather-card-radius: 1rem;
+  --weather-surface: #ffffff;
+}
+
+/* Utility class to hide elements while preserving layout control */
+.weather-app-hidden {
+  display: none !important;
+}
+
+/* Apply a consistent rounded corner look to weather cards */
+.weather-app-card {
+  border-radius: var(--weather-card-radius);
+}
+
+/* Ensure responsive elements never exceed the page width */
+.weather-app-responsive {
+  max-width: 100%;
+}
+
+/* Smooth scrolling for any in-page navigation or anchor jumps */
+html {
+  scroll-behavior: smooth;
+}
